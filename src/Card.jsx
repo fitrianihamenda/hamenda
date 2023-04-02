@@ -2,9 +2,11 @@ function Card() {
     return (
       <>
         <div class="flex justify-center items-center h-screen w-full bg-gradient-to-r from-blue-500 to-blue-600">
-         <div class="w-1/2 bg-white rounded-lg shadow-2xl p-8 m-4">
-           <h1 class="block w-full text-center text-gray-800 text-2xl font-bpld mb-6">
-             Registrasi
+         <div class="w-1/2 bg-white rounded-lg shadow-2x1 p-8 m-4">
+           <h1 class="block w-full text-center text-gray-800 text-2x1 font-bpld mb-6">
+               Kartu  Tanda Penduduk
+               <img src={process.env.PUBLIC_URL + 'fitri.webp'} class="flex-=col mb-1 w-40 h-600" />
+               
             </h1>
             <form action="/" method="post">
               <div class="flex flex-col mb-4">
@@ -12,7 +14,7 @@ function Card() {
                   class="mb-2 font-bold text-lg text-gray-900"
                   for="nama" 
                 >
-                  Nama
+                    Nama
                 </label>
                 <input
                     class="border py-2 px-3 text-grey-800"
